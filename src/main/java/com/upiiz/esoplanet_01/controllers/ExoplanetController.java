@@ -11,7 +11,8 @@ import java.util.Map;
 public class ExoplanetController {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String FAST_API_URL = "https://gloriaitzel0609-api-ia-python.hf.space/predict";
+    //private final String FAST_API_URL = "https://gloriaitzel0609-api-ia-python.hf.space/predict";
+    private final String String url_ia = "https://gloriaitzel0609-api-ia-python.hf.space/predict";
 
     @PostMapping("/classify")
     public ResponseEntity<?> classifyExoplanet(@RequestBody Map<String, Object> datos, Object requestData) {
