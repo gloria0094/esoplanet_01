@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class ExoplanetController {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String FAST_API_URL = "http://localhost:8000/predict";
+    private final String FAST_API_URL = "https://gloriaitzel0609-api-ia-python.hf.space/predict";
 
     @PostMapping("/classify")
     public ResponseEntity<?> classifyExoplanet(@RequestBody Object requestData) {
