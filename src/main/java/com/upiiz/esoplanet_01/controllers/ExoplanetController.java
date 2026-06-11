@@ -13,7 +13,7 @@ public class ExoplanetController {
     private final String FAST_API_URL = "https://gloriaitzel0609-api-ia-python.hf.space/predict";
 
     @PostMapping("/classify")
-    public ResponseEntity<?> classifyExoplanet(@RequestBody Map<String, Object> datos) {
+    public ResponseEntity<?> classifyExoplanet(@RequestBody Map<String, Object> datos, Object requestData) {
         try {
             ResponseEntity<Object> response = restTemplate.postForEntity(FAST_API_URL, requestData, Object.class);
             return ResponseEntity.ok(response.getBody());
