@@ -70,11 +70,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.upiiz</groupId>
-			<artifactId>esoplanet_01</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.17.2</version>
