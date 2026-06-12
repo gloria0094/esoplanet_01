@@ -11,7 +11,6 @@ public class Caracteristicas {
     private float koi_period;
     private float koi_time0bk;
     private float koi_time0bk_err1;
-    private float koi_time0bk_err2;
     private float koi_impact;
     private float koi_impact_err1;
     private float koi_impact_err2;
@@ -92,14 +91,6 @@ public class Caracteristicas {
 
     public void setKoi_time0bk_err1(float koi_time0bk_err1) {
         this.koi_time0bk_err1 = koi_time0bk_err1;
-    }
-
-    public float getKoi_time0bk_err2() {
-        return koi_time0bk_err2;
-    }
-
-    public void setKoi_time0bk_err2(float koi_time0bk_err2) {
-        this.koi_time0bk_err2 = koi_time0bk_err2;
     }
 
     public float getKoi_impact() {
